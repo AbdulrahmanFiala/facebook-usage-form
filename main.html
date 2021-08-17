@@ -1,0 +1,87 @@
+<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+
+  <main id="main">
+    <header id="header">
+      <h1 id="title">
+        facebook usage form
+      </h1>
+      <p id="description">
+        Please let us know how much time you spend on facebook
+      </p>
+    </header>
+    <form id="survey-form">
+      <div class="form-group">
+        <label for="name" id="name-label">
+          Name
+        </label>
+        <input class="form-control" type="text" name="name" id="name" placeholder="Enter your name" required>
+      </div>
+      <div class="form-group">
+        <label for="email" id="email-label">
+          Email
+        </label>
+        <input class="form-control" type="email" name="email" id="email" placeholder="Enter your Email" required>
+      </div>
+      <div class="form-group">
+        <label for="number" id="number-label">
+          Age (optional)
+        </label>
+        <input class="form-control" type="number" name="age" id="number" min="13" max="99" placeholder="Age">
+      </div>
+      <div class="form-group">
+        <label for="dropdown">
+          What is the device that you usually use to acess Facebook?
+        </label>
+        <select class="form-control" id="dropdown" name="device">
+          <option selected disabled>Select a device</option>
+          <option value="PC/Laptop">PC/Laptop</option>
+          <option value="Tablet">Tablet</option>
+          <option value="Mobile Phone">Mobile Phone</option>
+          <option value="Other">Other</option>
+
+        </select>
+      </div>
+      <div class="form-group ">
+        <p>How many hours do you spend on Facebook on average?</p>
+
+        <label for="less-than-hour" class="form-control radio">
+          <input type="radio" name="hours" id="less-than-hour" value="less-than-hour">
+          <span>Less than an Hour</span>
+        </label>
+        <label for="from-1-3-hours" class="form-control radio">
+          <input type="radio" name="hours" id="from-1-3-hours" value="from-1-3-hours">
+          <span>1-3 Hours</span>
+        </label>
+        <label for="from-3-6-hours" class="form-control radio">
+          <input type="radio" name="hours" id="from-3-6-hours" value="from-3-6-hours">
+          <span>3-6 Hours</span>
+        </label>
+        <label for="more-than-6-hours" class="form-control radio">
+          <input type="radio" name="hours" id="more-than-6-hours" value="more-than-6-hours">
+          <span>More than 6 Hours</span>
+        </label>
+      </div>
+      <div class="form-group">
+        <p>How do you classify your usage? (Check all that apply)</p>
+        <label for="personal" class="form-control check-box">
+          <input type="checkbox" name="usage" id="personal" value="personal">
+          <span>Personal</span>
+        </label>
+        <label for="business" class="form-control check-box">
+          <input type="checkbox" name="usage" id="business" value="business">
+          <span>Business</span>
+        </label>
+      </div>
+      <div class="form-group">
+        <label id="suggestion" for="comment">
+          Any comments or suggestions?
+ </label>
+        <br>
+        <textarea id="comment" name="comment" rows="4" placeholder="Enter your comment here">
+</textarea>
+      </div>
+      <div class="form-group">
+        <button type="submit" id="submit">Submit</button>
+      </div>
+    </form>
+  </main>
