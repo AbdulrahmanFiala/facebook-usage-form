@@ -29,5 +29,5 @@ This is a simple survey form designed to estimate how often each Facebook user u
 
 ## License
 
-This project is licensed under the [MIT License](link-to-license-file). You are free to use, modify, and distribute this project in accordance with the terms of the license.
+This project is licensed under the MIT License. You are free to use, modify, and distribute this project in accordance with the terms of the license.
 
